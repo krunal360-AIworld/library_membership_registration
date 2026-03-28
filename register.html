@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+  <h2>📚 Smart Library</h2>
+</div>
+
+<div class="container">
+<h2>Membership Registration</h2>
+
+<form onsubmit="handleForm(event)">
+
+<input type="text" id="name" placeholder="Full Name" required>
+
+<input type="email" id="email" placeholder="Email" required>
+
+<select required>
+<option value="">Select Year</option>
+<option>1st Year</option>
+<option>2nd Year</option>
+<option>3rd Year</option>
+<option>4th Year</option>
+</select>
+
+<select required>
+<option value="">Department</option>
+<option>ENTC</option>
+<option>Computer</option>
+<option>Mechanical</option>
+</select>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+<script src="script.js"></script>
+</html>
